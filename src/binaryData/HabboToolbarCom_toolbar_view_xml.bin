@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="mainview" width="86" height="450" version="0.1" uid="8C794A86-7E73-D90F-0203-6C4F78B910AF">
+  <window>
+    <border x="0" y="0" width="86" height="450" params="1" style="6" name="main" color="0x079756e">
+      <filters>
+        <DropShadowFilter distance="3" alpha="0.6"/>
+      </filters>
+      <children>
+        <region x="5" y="5" width="76" height="80" params="17" style="0" name="NAVIGATOR" treshold="0" tags="ICON_REG">
+          <children>
+            <container x="8" y="5" width="60" height="60" params="16" style="0" name="bg_navigator" color="0x0505050" tags="ICON_BORDER">
+              <children>
+                <bitmap x="0" y="0" width="60" height="60" params="16" style="0" name="icon_navigator" tags="ICON_BMP"/>
+              </children>
+            </container>
+            <text x="1" y="63" width="76" height="21" params="262160" style="0" name="text_shadow" caption="%24%7Btoolbar.icon.label.navigator%7D">
+              <variables>
+                <var key="antialias_type" value="advanced" type="String"/>
+                <var key="auto_size" value="center" type="String"/>
+                <var key="font_face" value="Ubuntu" type="String"/>
+                <var key="font_size" value="12" type="uint"/>
+                <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                <var key="bold" value="true" type="Boolean"/>
+                <var key="kerning" value="true" type="Boolean"/>
+              </variables>
+            </text>
+            <text x="0" y="62" width="76" height="21" params="262160" style="0" name="text" caption="%24%7Btoolbar.icon.label.navigator%7D">
+              <variables>
+                <var key="antialias_type" value="advanced" type="String"/>
+                <var key="auto_size" value="center" type="String"/>
+                <var key="font_face" value="Ubuntu" type="String"/>
+                <var key="font_size" value="12" type="uint"/>
+                <var key="text_color" value="0xffffff" type="hex"/>
+                <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                <var key="bold" value="true" type="Boolean"/>
+                <var key="kerning" value="true" type="Boolean"/>
+              </variables>
+            </text>
+          </children>
+        </region>
+        <region x="5" y="90" width="76" height="80" params="17" style="0" name="CATALOGUE" treshold="0" tags="ICON_REG">
+          <children>
+            <container x="8" y="5" width="60" height="60" params="16" style="0" name="bg_catalogue" color="0x0505050" tags="ICON_BORDER">
+              <children>
+                <bitmap x="0" y="0" width="60" height="60" params="16" style="0" name="icon_catalogue" tags="ICON_BMP"/>
+              </children>
+            </container>
+            <text x="1" y="63" width="76" height="21" params="262160" style="0" name="text_shadow" caption="%24%7Btoolbar.icon.label.catalogue%7D">
+              <variables>
+                <var key="antialias_type" value="advanced" type="String"/>
+                <var key="auto_size" value="center" type="String"/>
+                <var key="font_face" value="Ubuntu" type="String"/>
+                <var key="font_size" value="12" type="uint"/>
+                <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                <var key="bold" value="true" type="Boolean"/>
+                <var key="kerning" value="true" type="Boolean"/>
+              </variables>
+            </text>
+            <text x="0" y="62" width="76" height="21" params="262160" style="0" name="text" caption="%24%7Btoolbar.icon.label.catalogue%7D">
+              <variables>
+                <var key="antialias_type" value="advanced" type="String"/>
+                <var key="auto_size" value="center" type="String"/>
+                <var key="font_face" value="Ubuntu" type="String"/>
+                <var key="font_size" value="12" type="uint"/>
+                <var key="text_color" value="0xffffff" type="hex"/>
+                <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                <var key="bold" value="true" type="Boolean"/>
+                <var key="kerning" value="true" type="Boolean"/>
+              </variables>
+            </text>
+          </children>
+        </region>
+        <region x="5" y="180" width="76" height="80" params="17" style="0" name="QUESTS" treshold="0" tags="ICON_REG">
+          <children>
+            <container x="8" y="5" width="60" height="60" params="16" style="0" name="bg_quests" color="0x0505050" tags="ICON_BORDER">
+              <children>
+                <bitmap x="0" y="0" width="60" height="60" params="16" style="0" name="icon_quest_default" tags="ICON_BMP"/>
+              </children>
+            </container>
+            <text x="1" y="63" width="76" height="21" params="262160" style="0" name="text_shadow" caption="%24%7Btoolbar.icon.label.quests%7D">
+              <variables>
+                <var key="antialias_type" value="advanced" type="String"/>
+                <var key="auto_size" value="center" type="String"/>
+                <var key="font_face" value="Ubuntu" type="String"/>
+                <var key="font_size" value="12" type="uint"/>
+                <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                <var key="bold" value="true" type="Boolean"/>
+                <var key="kerning" value="true" type="Boolean"/>
+              </variables>
+            </text>
+            <text x="0" y="62" width="76" height="21" params="262160" style="0" name="text" caption="%24%7Btoolbar.icon.label.quests%7D">
+              <variables>
+                <var key="antialias_type" value="advanced" type="String"/>
+                <var key="auto_size" value="center" type="String"/>
+                <var key="font_face" value="Ubuntu" type="String"/>
+                <var key="font_size" value="12" type="uint"/>
+                <var key="text_color" value="0xffffff" type="hex"/>
+                <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                <var key="bold" value="true" type="Boolean"/>
+                <var key="kerning" value="true" type="Boolean"/>
+              </variables>
+            </text>
+          </children>
+        </region>
+        <region x="5" y="270" width="76" height="80" params="17" style="0" name="INVENTORY" treshold="0" tags="ICON_REG">
+          <children>
+            <container x="8" y="5" width="60" height="60" params="16" style="0" name="bg_inventory" color="0x0505050" tags="ICON_BORDER">
+              <children>
+                <bitmap x="0" y="0" width="60" height="60" params="16" style="0" name="icon_inventory" tags="ICON_BMP"/>
+              </children>
+            </container>
+            <text x="1" y="63" width="76" height="21" params="262160" style="0" name="text_shadow" caption="%24%7Btoolbar.icon.label.inventory%7D">
+              <variables>
+                <var key="antialias_type" value="advanced" type="String"/>
+                <var key="auto_size" value="center" type="String"/>
+                <var key="font_face" value="Ubuntu" type="String"/>
+                <var key="font_size" value="12" type="uint"/>
+                <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                <var key="bold" value="true" type="Boolean"/>
+                <var key="kerning" value="true" type="Boolean"/>
+              </variables>
+            </text>
+            <text x="0" y="62" width="76" height="21" params="262160" style="0" name="text" caption="%24%7Btoolbar.icon.label.inventory%7D">
+              <variables>
+                <var key="antialias_type" value="advanced" type="String"/>
+                <var key="auto_size" value="center" type="String"/>
+                <var key="font_face" value="Ubuntu" type="String"/>
+                <var key="font_size" value="12" type="uint"/>
+                <var key="text_color" value="0xffffff" type="hex"/>
+                <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                <var key="bold" value="true" type="Boolean"/>
+                <var key="kerning" value="true" type="Boolean"/>
+              </variables>
+            </text>
+          </children>
+        </region>
+        <region x="5" y="360" width="76" height="80" params="17" style="0" name="MEMENU" treshold="0" tags="ICON_REG">
+          <children>
+            <container x="8" y="5" width="60" height="60" params="16" style="0" name="bg_memenu" color="0x0505050" tags="ICON_BORDER">
+              <children>
+                <bitmap x="0" y="0" width="60" height="60" params="16" style="0" name="icon_me_menu" tags="ICON_BMP"/>
+              </children>
+            </container>
+            <text x="1" y="63" width="76" height="21" params="262160" style="0" name="text_shadow" caption="%24%7Btoolbar.icon.label.memenu%7D">
+              <variables>
+                <var key="antialias_type" value="advanced" type="String"/>
+                <var key="auto_size" value="center" type="String"/>
+                <var key="font_face" value="Ubuntu" type="String"/>
+                <var key="font_size" value="12" type="uint"/>
+                <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                <var key="bold" value="true" type="Boolean"/>
+                <var key="kerning" value="true" type="Boolean"/>
+              </variables>
+            </text>
+            <text x="0" y="62" width="76" height="21" params="262160" style="0" name="text" caption="%24%7Btoolbar.icon.label.memenu%7D">
+              <variables>
+                <var key="antialias_type" value="advanced" type="String"/>
+                <var key="auto_size" value="center" type="String"/>
+                <var key="font_face" value="Ubuntu" type="String"/>
+                <var key="font_size" value="12" type="uint"/>
+                <var key="text_color" value="0xffffff" type="hex"/>
+                <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                <var key="bold" value="true" type="Boolean"/>
+                <var key="kerning" value="true" type="Boolean"/>
+              </variables>
+            </text>
+          </children>
+        </region>
+      </children>
+    </border>
+  </window>
+</layout>

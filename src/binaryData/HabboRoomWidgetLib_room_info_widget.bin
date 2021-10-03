@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="room_info_widget" width="208" height="28" version="0.1" uid="02CDF7A3-9195-1164-1890-597B924DBFE2">
+  <window>
+    <region x="0" y="0" width="208" height="28" params="65" style="0" treshold="0">
+      <children>
+        <border x="0" y="0" width="208" height="28" params="2176" style="5" color="0x00" blend="0.7"/>
+        <bitmap x="6" y="5" width="18" height="19" params="0" style="0" name="icon"/>
+        <text x="27" y="5" width="172" height="16" params="4194304" style="0" name="text" caption="navigator.roomsettings.roominfo">
+          <variables>
+            <var key="antialias_type" value="advanced" type="String"/>
+            <var key="auto_size" value="left" type="String"/>
+            <var key="font_face" value="Ubuntu" type="String"/>
+            <var key="font_size" value="11" type="uint"/>
+            <var key="text_color" value="0xffffff" type="hex"/>
+            <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+            <var key="underline" value="true" type="Boolean"/>
+          </variables>
+        </text>
+      </children>
+    </region>
+  </window>
+</layout>
